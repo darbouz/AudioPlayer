@@ -1,0 +1,33 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <div id="bg">
+       <div id="blackLayer"></div>
+       <img src="1.jpg"/>
+     </div>
+
+     <div id="main">
+       <div id="image">
+         <img src="1.jpg">
+       </div>
+       <div id="player">
+         <div id="songTitle">DEMO</div><br><br><br>
+         <div id="buttons">
+           <button id="pre" onclick="prev()"><</button>
+           <button id="play" onclick="PlayOrPauseSong()">||</button>
+           <button id="next" onclick="next()">></button>
+         </div>
+
+         <div id="seek-bar">
+           <div id="fill"></div>
+           <div id="handle"></div>
+         </div>
+       </div>
+     </div>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
